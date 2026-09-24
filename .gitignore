@@ -1,0 +1,4 @@
+.venv/
+myenv/
+__pycache__/
+saved_weights.pt
