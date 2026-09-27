@@ -1,0 +1,67 @@
+{
+  "setup": "frozen",
+  "seed": 44,
+  "settings": {
+    "epochs": 5,
+    "max_len": 64,
+    "scheduler": true,
+    "freeze": true,
+    "lr": 0.001
+  },
+  "gpu": "NVIDIA GeForce RTX 5070",
+  "trainable_params": 394754,
+  "best_epoch": 3,
+  "mean_epoch_time_s": 3.1181007385253907,
+  "peak_gpu_mem_mb": 556.91357421875,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.4362199863449472,
+      "val_loss": 0.1663263710560622,
+      "epoch_time_s": 3.113008975982666
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.22292349902821368,
+      "val_loss": 0.13104395395903676,
+      "epoch_time_s": 3.1168408393859863
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.13876993977846425,
+      "val_loss": 0.0987790232627756,
+      "epoch_time_s": 3.113797903060913
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.16282669078467077,
+      "val_loss": 0.100396402111208,
+      "epoch_time_s": 3.1190972328186035
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.11538230378913586,
+      "val_loss": 0.10278739431803977,
+      "epoch_time_s": 3.127758741378784
+    }
+  ],
+  "test": {
+    "accuracy": 0.9677033492822966,
+    "spam_precision": 0.8346456692913385,
+    "spam_recall": 0.9464285714285714,
+    "spam_f1": 0.8870292887029289,
+    "ham_precision": 0.9915373765867419,
+    "ham_recall": 0.9709944751381215,
+    "ham_f1": 0.9811584089323099,
+    "confusion_matrix": [
+      [
+        703,
+        21
+      ],
+      [
+        6,
+        106
+      ]
+    ]
+  }
+}
